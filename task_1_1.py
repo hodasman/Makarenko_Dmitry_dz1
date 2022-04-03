@@ -22,7 +22,6 @@ def convert_time(duration: int) -> str:
     else: text = f'Неверное значение'
     return text
 
-
 duration = 400153
 result = convert_time(duration)
 print(result)
